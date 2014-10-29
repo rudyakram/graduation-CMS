@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /Blocks/
+Disallow: /Common/
+Disallow: /Lang/
+Disallow: /Modules/
+Disallow: /Templates/

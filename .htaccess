@@ -1,0 +1,10 @@
+Options -Indexes
+order deny,allow
+<Files .htaccess>
+order deny,allow
+deny from all
+</Files>
+ErrorDocument 403 /ukh/Modules/Error/403.php
+ErrorDocument 404 /ukh/Modules/Error/404.php
+php_flag register_globals off
+
